@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  background-color: #FFF;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  color: #1B1F21;
+}
+
+.contacts-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  width: 300px;
+  background-color: #FFF;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.activa {
+  font-size: x-small;
+  color: #828485;
+}
+
+.user-status {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.status-info {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.status-icon {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 10px;
+  color: #343435;
+}
+
+.contact-icons i {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.new-chat-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #BEC1BB;
+  margin-bottom: 20px;
+}
+
+.new-chat-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #A491D2;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.new-chat-button:hover {
+  background-color: #CDC3E6; /* Soap */
+}
+
+.new-chat-button:focus {
+  background-color: #828485; /* Old Silver */
+  outline: none;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  flex: 0 0 3rem;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #BEC1BB;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.main-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8ebe4;
+}
+
+.content-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-center > p {
+  width: 500px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.tiny-thumbnail {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.normal-thumbnail {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.big-thumbnail {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
