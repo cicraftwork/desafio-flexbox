@@ -47,14 +47,19 @@ body {
 }
 
 .status-icon {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+button {
+  border:0ch;
+  align-items: end;
 }
 
 .contact-icons {
   display: flex;
-  gap: 10px;
-  color: #343435;
+  gap: 15px;
+  color: #444446;
 }
 
 .contact-icons i {
